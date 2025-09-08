@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agenda de Contactos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      text-align: center;
+    }
+    input {
+      display: block;
+      margin: 10px auto;
+      padding: 5px;
+      width: 250px;
+    }
+    button {
+      margin: 5px;
+      padding: 8px 12px;
+    }
+    table {
+      margin: 20px auto;
+      border-collapse: collapse;
+      width: 80%;
+    }
+    table, th, td {
+      border: 1px solid black;
+    }
+    th, td {
+      padding: 8px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h2>Agenda de Contactos</h2>
+  
+  <input type="text" id="identificacion" placeholder="Identificación">
+  <input type="text" id="nombre" placeholder="Nombre">
+  <input type="text" id="apellido" placeholder="Apellido">
+  <input type="email" id="correo" placeholder="Correo">
+  <input type="text" id="celular" placeholder="Celular">
+
+  <div>
+    <button id="btnAgregar">Agregar</button>
+    <button id="btnConsultar">Consultar</button>
+    <button id="btnActualizar">Actualizar</button>
+    <button id="btnEliminar">Eliminar</button>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Correo</th>
+        <th>Celular</th>
+      </tr>
+    </thead>
+    <tbody id="tabla-body"></tbody>
+  </table>
+
+  <script type="module" src="./mainapp.js"></script>
+</body>
+</html>

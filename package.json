@@ -11,5 +11,14 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maotovaraggez995-ctrl/EvidenciaJS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maotovaraggez995-ctrl/EvidenciaJS/issues"
+  },
+  "homepage": "https://github.com/maotovaraggez995-ctrl/EvidenciaJS#readme"
 }
